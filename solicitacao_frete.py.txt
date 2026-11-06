@@ -1,0 +1,17 @@
+
+print("SOLICITACAO DE FRETE")
+
+cliente = "Keverson"
+origem = "Curitiba"
+destino = "São Paulo"
+peso = 100
+
+valor_frete = peso * 2.50
+
+print("Cliente:", cliente)
+print("Origem:", origem)
+print("Destino:", destino)
+print("Peso:", peso, "kg")
+print("Valor do frete: R$", valor_frete)
+
+print("Solicitacao registrada com sucesso!")
